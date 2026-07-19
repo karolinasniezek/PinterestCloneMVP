@@ -1,0 +1,129 @@
+.card {
+  background: white;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+
+  transition: 0.25s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18);
+}
+
+.card img {
+  width: 100%;
+
+  aspect-ratio: 3/4;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+.card-content {
+  padding: 18px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #666;
+
+  margin-bottom: 8px;
+}
+
+.author {
+  color: #999;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.favorite-btn {
+  position: absolute;
+
+  top: 14px;
+
+  right: 14px;
+
+  width: 48px;
+
+  height: 48px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  font-size: 24px;
+
+  cursor: pointer;
+
+  background: rgba(255, 255, 255, 0.9);
+
+  transition: 0.2s;
+}
+
+.favorite-btn:hover {
+  transform: scale(1.1);
+
+  background: white;
+}
+
+.edit-btn {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+
+  width: 42px;
+  height: 42px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: white;
+
+  cursor: pointer;
+
+  font-size: 18px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+  transition: 0.2s;
+}
+
+.edit-btn:hover {
+  transform: scale(1.08);
+}
+
+.delete-btn {
+  position: absolute;
+  top: 60px;
+  left: 12px;
+
+  width: 42px;
+  height: 42px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: white;
+  cursor: pointer;
+  font-size: 18px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  transform: scale(1.08);
+}
