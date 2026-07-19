@@ -2,14 +2,19 @@
 
 A Pinterest-inspired Single Page Application built with React, TypeScript and Vite.
 
+## Project Status - MVP (Minimum Viable Product) – currently in progress.
+
+This project contains the core functionality of a Pinterest-style application and is being actively extended with new features, automated tests, a .NET Web API backend and CI/CD pipelines.
+
 ## Features
 
 - Display pins
 - Search pins
 - Add new pins
-- Edit pins
+- Edit existing pins
 - Delete pins
 - Favorite pins
+- Image upload with preview
 - Local Storage persistence
 
 ## Tech Stack
@@ -18,12 +23,6 @@ A Pinterest-inspired Single Page Application built with React, TypeScript and Vi
 - TypeScript
 - Vite
 - CSS
-
-## Status
-
-MVP (Minimum Viable Product)
-
-This project includes the core functionality of a Pinterest-style application and will be expanded with additional features.
 
 ## Future Improvements
 
