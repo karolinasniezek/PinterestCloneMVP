@@ -24,6 +24,10 @@ This project contains the core functionality of a Pinterest-style application an
 - Vite
 - CSS
 
+## Application Preview
+
+![Pinterest Clone](./docs/homepage.png)
+
 ## Future Improvements
 
 - Boards support
