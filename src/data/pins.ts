@@ -6,7 +6,7 @@ export const pins: Pin[] = [
     title: "Blue Eyed Dalmatian",
     description: "Beautiful Dalmatian with striking blue eyes.",
     author: "Emily",
-    imageUrl: "/images/image1.png",
+    imageUrl: `${import.meta.env.BASE_URL}images/image1.png`,
     isFavorite: false,
   },
   {
@@ -14,7 +14,7 @@ export const pins: Pin[] = [
     title: "Cute Devon Rex Kitten",
     description: "Adorable kitten with big blue eyes.",
     author: "Sophia",
-    imageUrl: "/images/image2.png",
+    imageUrl: `${import.meta.env.BASE_URL}images/image2.png`,
     isFavorite: true,
   },
   {
@@ -22,7 +22,7 @@ export const pins: Pin[] = [
     title: "Dalmatian Puppies",
     description: "A cozy moment with playful Dalmatian puppies.",
     author: "Olivia",
-    imageUrl: "/images/image3.png",
+    imageUrl: `${import.meta.env.BASE_URL}images/image3.png`,
     isFavorite: false,
   },
   {
@@ -30,7 +30,7 @@ export const pins: Pin[] = [
     title: "Minimal Living Room",
     description: "Modern interior with plants and natural light.",
     author: "James",
-    imageUrl: "/images/image4.png",
+    imageUrl: `${import.meta.env.BASE_URL}images/image4.png`,
     isFavorite: false,
   },
   {
@@ -38,7 +38,7 @@ export const pins: Pin[] = [
     title: "Industrial Loft",
     description: "Spacious loft with colorful modern furniture.",
     author: "Lucas",
-    imageUrl: "/images/image5.png",
+    imageUrl: `${import.meta.env.BASE_URL}images/image5.png`,
     isFavorite: true,
   },
   {
@@ -46,7 +46,7 @@ export const pins: Pin[] = [
     title: "Creative Loft Apartment",
     description: "Artistic loft full of warm lighting and decor.",
     author: "Charlotte",
-    imageUrl: "/images/image6.png",
+    imageUrl: `${import.meta.env.BASE_URL}images/image6.png`,
     isFavorite: false,
   },
   {
@@ -54,7 +54,7 @@ export const pins: Pin[] = [
     title: "Cozy Studio Apartment",
     description: "Small but stylish apartment with cozy vibes.",
     author: "Emma",
-    imageUrl: "/images/image7.png",
+    imageUrl: `${import.meta.env.BASE_URL}images/image7.png`,
     isFavorite: false,
   },
   {
@@ -62,7 +62,7 @@ export const pins: Pin[] = [
     title: "Modern Eclectic Living Room",
     description: "Bold colors and contemporary interior design.",
     author: "Noah",
-    imageUrl: "/images/image8.png",
+    imageUrl: `${import.meta.env.BASE_URL}images/image8.png`,
     isFavorite: true,
   },
   {
@@ -70,7 +70,7 @@ export const pins: Pin[] = [
     title: "New York Pizza Night",
     description: "Pizza with a breathtaking Manhattan skyline.",
     author: "Michael",
-    imageUrl: "/images/image9.png",
+    imageUrl: `${import.meta.env.BASE_URL}images/image9.png`,
     isFavorite: false,
   },
   {
@@ -78,7 +78,7 @@ export const pins: Pin[] = [
     title: "Classic NYC Fire Escape",
     description: "Everyday life in a New York apartment building.",
     author: "Isabella",
-    imageUrl: "/images/image10.png",
+    imageUrl: `${import.meta.env.BASE_URL}images/image10.png`,
     isFavorite: false,
   },
   {
@@ -86,7 +86,7 @@ export const pins: Pin[] = [
     title: "Urban Apartment Inspiration",
     description: "Bright apartment with modern and vintage touches.",
     author: "Mia",
-    imageUrl: "/images/image11.png",
+    imageUrl: `${import.meta.env.BASE_URL}images/image11.png`,
     isFavorite: true,
   },
 ];
