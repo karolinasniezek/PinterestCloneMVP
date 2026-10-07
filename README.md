@@ -36,6 +36,9 @@ This project contains the core functionality of a Pinterest-style application an
 - Backend integration
 - Cloud image storage
 - Improved responsive design
+- Share functionality
+- Profile view
+- Board suggestions
 
 ## Getting Started
 
