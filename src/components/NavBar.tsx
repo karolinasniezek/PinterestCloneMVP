@@ -20,7 +20,7 @@ function NavBar({ searchTerm, onSearchChange, onAddPin }: NavBarProps) {
 
       <button onClick={onAddPin}>+ Add Pin</button>
 
-      <div className="profile-avatar" title="Your profile" aria-label="Your profile">
+      <div className="profile-avatar" role="img" title="Your profile" aria-label="Your profile">
         K
       </div>
     </header>
