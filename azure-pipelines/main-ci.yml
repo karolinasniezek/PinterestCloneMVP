@@ -1,3 +1,11 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: "ubuntu-latest"
+
 steps:
   - template: templates/react-ci.yml
 
