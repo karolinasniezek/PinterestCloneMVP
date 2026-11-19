@@ -1,0 +1,11 @@
+steps:
+  - template: templates/react-ci.yml
+
+  - script: echo "Quality checks completed successfully"
+    displayName: "5. Quality gate"
+
+  - task: PublishPipelineArtifact@1
+    displayName: "6. Publish React build artifact"
+    inputs:
+      targetPath: "$(Build.SourcesDirectory)/dist"
+      artifact: "react-build"

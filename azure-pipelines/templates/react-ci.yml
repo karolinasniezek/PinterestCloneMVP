@@ -1,0 +1,17 @@
+steps:
+  - task: NodeTool@0
+    displayName: "Use Node.js 20"
+    inputs:
+      versionSpec: "20.x"
+
+  - script: npm ci
+    displayName: "1. Install dependencies"
+
+  - script: npm run lint
+    displayName: "2. Run ESLint"
+
+  - script: npm run build
+    displayName: "3. Build React application"
+
+  - script: npm test
+    displayName: "4. Run unit tests"
