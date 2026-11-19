@@ -1,20 +1,48 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Pinterest Clone
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+A Pinterest-inspired Single Page Application built with React, TypeScript and Vite.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Project Status - MVP – currently in progress.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+This project contains the core functionality of a Pinterest-style application and is being actively extended with new features, automated tests, a .NET Web API backend and CI/CD pipelines.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Features
+
+- Display pins
+- Search pins
+- Add new pins
+- Edit existing pins
+- Delete pins
+- Favorite pins
+- Image upload with preview
+- Local Storage persistence
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- CSS
+
+## Application Preview
+
+![Pinterest Clone](./docs/homepage.png)
+
+## Future Improvements
+
+- Boards support
+- Pin categories
+- User authentication
+- Backend integration
+- Cloud image storage
+- Improved responsive design
+- Share functionality
+- Profile view
+- Board suggestions
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
