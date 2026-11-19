@@ -1,0 +1,10 @@
+name: FE - PR Validation
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    uses: ./.github/workflows/react-ci.yml
